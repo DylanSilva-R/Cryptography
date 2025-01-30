@@ -1,0 +1,10 @@
+#Group 0
+./a.out cypher0.txt plain0.txt alpha26lc.txt "wereandroid" e
+./a.out recover0.txt cypher0.txt alpha26lc.txt "wereandroid" d
+./a.out cypher0_ignore.txt plain0.txt alpha26lc.txt "wereandroid" ei
+./a.out recover0_ignore.txt cypher0_ignore.txt alpha26lc.txt "wereandroid" di
+
+#Group 1
+./a.out cypher1.txt plain1.txt alpha_space.txt "cypher" e
+./a.out recover1.txt cypher1.txt alpha_space.txt "cypher" d
+
