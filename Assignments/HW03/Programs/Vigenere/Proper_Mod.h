@@ -103,61 +103,6 @@ int pMod(int a, int b)
     catch(MyException e)
     {
         std::cerr << e.what() << endl;
+        EXIT_FAILURE;
     }
-
 }
-
-// void menu()
-// {
-//     cout << "1) Input values" << endl;
-//     cout << "2) Exit" << endl;
-// }
-
-// int main()
-// {
-//     cout << "________________"<< endl;
-//     cout << "|Proper Modulus|"<< endl;
-//     cout << "|______________|"<< endl;
-//     cout <<""<< endl;
-
-//     int a;
-//     int b;
-//     bool loop = true;
-//     int menuInput;
-
-//     while(loop)
-//     {
-//         menu();
-//         cout << "Enter a menu option: ";
-//         cout << "" << endl; 
-
-//         cin >> menuInput;
-
-//         switch (menuInput)
-//         {
-//             case 1:
-
-//                     cout << "a = ";
-//                     cin >> a;
-//                     cout << "" << endl;
-
-//                     cout << "b = ";
-//                     cin >> b;
-//                     cout << "" << endl;
-
-//                     pMod(a, b);
-
-//                     //cout << "Remainder = " << answer <<endl;
-
-//                 break;
-//             case 2:
-//                 loop = false;
-
-//                 break;
-//             default:
-//                 cout << "Your input is out of bounds." << endl;
-//                 break;
-//         }
-//     }
-
-// }
