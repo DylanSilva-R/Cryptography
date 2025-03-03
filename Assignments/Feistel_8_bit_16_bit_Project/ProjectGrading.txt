@@ -1,0 +1,9 @@
+Report Document Submitted: 10 (submitted header and minimal submission)
+Snapshots Detailed:       10 (showed some IDE/editor images)
+Code Submitted:           20 (running or not - will be evaluated - INCLUDE Build Instructions including language compiler version)
+
+Compiles:                20  (actually executes; right or wrong)
+e/d implemented:         10  (does both)
+8/16 implemented:        10  (does both)
+Encrypt/Decrypt Self-Symmetric:  10  (algorithm incorrect but successfully decrypts its own encrypted messages)
+Class Tests Symmetric:      10  (algorithm matches/recovers class messages)
