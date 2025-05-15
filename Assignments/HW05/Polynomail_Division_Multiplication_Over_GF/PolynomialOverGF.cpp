@@ -172,7 +172,7 @@ void multiplyGalois(PolynomialOverGFData &data)
     }
 }
 
-int main(int argc, char **argv)
+int main(int argc, char* argv[])
 {
     if (argc < 0 && argc > 4)
     {
@@ -275,7 +275,7 @@ int main(int argc, char **argv)
 
         multiplyGalois(data);
 
-        if (getDegree(data.product) < getDegree(data.polynomialField))
+        if (getDegree(data.product) > getDegree(data.polynomialField))
         {
             std::cout << "Remainder = " << data.product << "\n";
         }

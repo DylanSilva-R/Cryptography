@@ -1,0 +1,11 @@
+Instead, neutrons are held together inside an atom’s
+ nucleus solely by something called the strong force,
+ one of the four fundamental forces of nature. As its
+ name implies, the force is indeed very strong, but
+ only at very close range — it drops off so rapidly
+ as to be negligible beyond 1/10,000 the size of an
+ atom. But now, researchers at MIT have found that
+ neutrons can actually be made to cling to particles
+ called quantum dots, which are made up of tens of
+ thousands of atomic nuclei, held there just by the
+ strong force.

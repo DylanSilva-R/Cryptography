@@ -71,6 +71,7 @@ void polynomialLongDivision(std::bitset<32> divisor, PolynomialOverGFData &data)
 
 int main()
 {
+
     std::bitset<32> polyOne("001000000001");
     std::bitset<32> polyField("000100011011");
 

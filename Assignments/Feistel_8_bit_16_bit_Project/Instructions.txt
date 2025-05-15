@@ -1,0 +1,25 @@
+Instructions
+____________
+
+Prerequistes
+____________
+1) Have gcc/g++ version 14.20 compiler.
+2) Have python 3.11.9 installed.
+3) Have make installed (not necessary but will make your life easier)
+
+Make instructions
+_________________
+1) Change into the directory that contains the programs.
+2) Go into Makefile and alter the command in the all: instruction
+	a) The first instruction is the python program execution. The command line arguments: python3 Convert_To_Binary.py <File_One_Location> binary_input.txt. The binary output will be stored in the binary_input.txt file.
+	b) The command below it is the C++ file execution.
+		a) To encrypt ./fiestel.o binary_input.txt cypher.txt KeNnEsSaWr23626Z e 8 => This means that the cypher text will be written onto the file cypher.txt utilizing 8-bit feistel cypher.
+		b) To decrypt ./fiestel.o binary_input.txt recover.txt R2R2R2R2 d 16 => This means that the plaintext will be decrypted and written on recover.txt utilizing the 16-bit fesitel cypher.
+3) You can run the commands yourself, but the make file is there to make your life easier. So, after altering the instruction type make all in the command line and program will compile and run.
+
+No make instructions
+____________________
+1) Compile the C++ file by using the gcc/g++ compiler. The command should be g++ Main.cpp -o fiestel.o 
+2) Run the python program
+3) Follow the same instruction when writing the command in the makefile.
+
